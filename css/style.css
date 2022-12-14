@@ -186,5 +186,26 @@ padding-left: 20px;
     justify-content: space-around;
     flex-direction: row;
     background-color: aquamarine;
+    height: 300px;
+}
+/*nine*/
+.nineth-main{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    
     height: 100vh;
+    padding: 150px;
+    line-height: 80px;
+    
+
+
+}
+#nove{
+   
+
+}
+.arrow{
+    text-align: end;
+    
 }
