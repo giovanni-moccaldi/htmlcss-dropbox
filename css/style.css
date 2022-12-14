@@ -1,6 +1,5 @@
-header{
-    
-}
+
+
 .menu-header{
     display: flex;
     align-items: center;
@@ -11,4 +10,37 @@ header{
     justify-content: space-between;
     
    
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+} 
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+    
+    
+       
+}
+   
+.descrizione  {
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;   
+    
+    
+}
+button{
+    width: 50px;
+    height: 50px;
+}
+ 
+.container img{
+    width: 500px;
+    height: 500px;
+}
+.foto1{
+position: relative;
+left: 550px;
 }
