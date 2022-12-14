@@ -48,7 +48,46 @@ left: 550px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+   
 }
-.schema1{
-    
+ul {list-style-type:none;
+}
+h2{
+    font-size: 20px;
+}
+.schema1
+ {
+line-height: 40px;
+border: 1px solid black;
+width: 220px;
+height: 600px;
+padding-left: 20px;
+}
+.schema2
+ {
+line-height: 40px;
+border: 1px solid black;
+width: 220px;
+height: 600px;
+padding-left: 20px;
+}
+.schema3
+ {
+line-height: 40px;
+border: 1px solid black;
+width: 220px;
+height: 600px;
+padding-left: 20px;
+}
+/* Qthird main */
+
+.third-main{
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    height: 300px;
+    border: solid 1px black;
+    margin-left: 90px;
+
 }
