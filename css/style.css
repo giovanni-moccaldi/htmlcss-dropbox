@@ -179,3 +179,12 @@ padding-left: 20px;
     margin: 0;
     height: 100vh;
 }
+/*eight*/
+.eightth-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: aquamarine;
+    height: 100vh;
+}
