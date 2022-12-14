@@ -1,0 +1,14 @@
+header{
+    
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1400px;
+    height: 70px;
+    background-color: lightblue;
+    justify-content: space-between;
+    
+   
+}
