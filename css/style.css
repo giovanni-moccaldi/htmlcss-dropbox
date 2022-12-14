@@ -1,4 +1,25 @@
 
+/*utils*/
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+    font-size:larger;
+
+}
+h2{
+    font-size: 35px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+ul {list-style-type:none;
+}
+
+
+
+
+/*header*/
 
 .menu-header{
     display: flex;
@@ -11,10 +32,8 @@
     
    
 }
-h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
-} 
+
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -46,61 +65,125 @@ button{
     position: relative;
     
     }
+/*second-main*/
 .second-main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    
+    
    
 }
-ul {list-style-type:none;
-}
-h2{
-    font-size: 20px;
+
+
+.second-main button{
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+    margin:  15px;
 }
 .schema1
  {
 line-height: 40px;
 border: 1px solid black;
-width: 220px;
+width: 200px;
 height: 600px;
-padding-left: 20px;
+padding-left: 5px;
+;
+
 }
 .schema2
  {
 line-height: 40px;
-border: 1px solid black;
-width: 220px;
+border: 1px solid gray;
+width: 200px;
 height: 600px;
-padding-left: 20px;
+padding-left: 5px;
+
 }
 .schema3
  {
 line-height: 40px;
-border: 1px solid black;
-width: 220px;
+border: 1px solid gray;
+width: 200px;
 height: 600px;
-padding-left: 20px;
+padding-left: 5px;
+
+}
+.second-main h3{
+    text-align: center;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: solid gray 1px;
+    
+    
+   
+    
+    
 }
 /* Qthird main */
 
 .third-main{
-    display: flex;
-    flex-direction: column;
-    width: 1050px;
+    
+    width: 1000px;
     height: 300px;
     border: solid 1px black;
-    margin-left: 90px;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+    
 
+}
+
+.third-main button{
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+    margin:  15px;
+    
+}
+.enterprise{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.third-main h2{
+    font-size: 30px;
 }
 /* fourt main */
 .fourth-main{
     display: flex;
     flex-direction: row-reverse;
+    padding-left: 50px;
+    margin-top: 150px;
+    height: 100vh;
+}
+.fourth-main button{
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+    margin:  15px;
+    
 }
 .partner{
-    width: 800px;
+    width: 700px;
     height: 400px;
+    padding-left: 50px;
+}
+.foto2{
+    object-fit: 20px;
+    padding-left: 50px;
 }
 /* fifth main */
 .fifth-main{
