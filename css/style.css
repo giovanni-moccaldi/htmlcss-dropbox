@@ -370,9 +370,11 @@ margin:  15px;
     padding: 150px;
     line-height: 80px;
     
-    
 
-
+}
+.freccia{
+    display:flex;
+    padding: 20px;
 }
 .nineth-main h3{
     font-size: 30px;
